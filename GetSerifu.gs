@@ -12,7 +12,7 @@ function serifu_shori(text, user_name) {
     } else if (text.match(NAPPA)) {
       retext = text.replace(NAPPA, user_name)
     } else {
-      //break;
+      retext = text;
     }
 
     return retext;
